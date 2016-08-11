@@ -1,3 +1,7 @@
+import { spy } from 'sinon';
+// ...
+const aSpy = spy();
+
 import Person from '../src/Person';
 
 var chai = require('chai');
